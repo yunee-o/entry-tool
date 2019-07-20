@@ -328,10 +328,10 @@ $lineImageDir:'../images';
 
 //컬러 피커
 .tooltip_box.color_picker {
-  .colorSliderButton {
-    background-image: url(#{$lineImageDir}/colorSliderBtn.png);
-    background-size: 36px;
-  }
+//   .colorSliderButton {
+//     background-image: url(#{$lineImageDir}/colorSliderBtn.png);
+//     background-size: 36px;
+//   }
 
   .colorSwatchesButton {
     background-image: url(#{$lineImageDir}/colorSwatchesBtn.png);
