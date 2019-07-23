@@ -524,7 +524,7 @@ class ColorPicker extends Component {
                             onClick={this.handleColorClick}
                         />
                         <ul className={`${this.theme.color_list}`}>{this.makeRGBController()}</ul>
-                        {canSpoide && (
+                        {/* {canSpoide && (
                             <div
                                 onClick={onSpoidClick}
                                 className={`${this.theme.btn_picker} ${this.theme.imbtn_picker} ${
@@ -532,7 +532,7 @@ class ColorPicker extends Component {
                                 }`}
                                 title={getLang(`Workspace.spoid`)}
                             />
-                        )}
+                        )} */}
                     </div>
                     <div className={`${this.theme.color_graph}`}>
                         <ul className={`${this.theme.graph_list}`}>{this.makeHSVController()}</ul>
